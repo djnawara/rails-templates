@@ -1,4 +1,5 @@
-run "rm README; touch README.rdoc"
+run "rm README; echo '= Doc needed' > README.rdoc"
+run "rm public/index.html public/rails.png"
 git :init
 # build our gitingore file
 file ".gitignore", <<-END

@@ -6,7 +6,7 @@ To use these generator templates I recommend adding this function to your bash p
     template=$1
     appname=$2
     shift 2
-    rails $appname -m http://github.com/ryanb/rails-templates/raw/master/$template.rb $@
+    rails $appname -m http://github.com/djnawara/rails-templates/raw/master/$template.rb $@
   }
 
 You can then use this "railsapp" command instead of the traditional "rails" one. Simply pass the template name as the first argument:
